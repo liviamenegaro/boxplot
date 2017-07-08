@@ -1,0 +1,7 @@
+div.valores p{
+  display: inline-block;
+  margin-right: 0.5em;
+}
+div.valores p:not(:last-child)::after {
+  content: ',';
+}
